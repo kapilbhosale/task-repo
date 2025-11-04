@@ -39,6 +39,15 @@ export default function TasksPage() {
             <li>Add Initial products from the seed file.</li>
           </ul>
         </div>
+
+        <div>
+          <h2 className="text-2xl font-semibold text-gray-800 mb-3">AI Assistant</h2>
+          <ul className="list-disc list-inside space-y-2 text-gray-600 text-lg">
+            <li>We encourage you to use AI assistant for this task.</li>
+            <li>Make sure you understand each and every line of code that was suggested by the AI assistant.</li>
+            <li>Add code in small commits and push them to the repository.</li>
+          </ul>
+        </div>
       </div>
     </div>
   );
