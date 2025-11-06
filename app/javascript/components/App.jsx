@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navigation from "./Navigation";
 import HomePage from "./HomePage";
 import TasksPage from "./TasksPage";
+import ProductsPage from "./ProductsPage";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/tasks" element={<TasksPage />} />
+          <Route path="/products" element={<ProductsPage />} />
         </Routes>
       </div>
     </BrowserRouter>
@@ -52,4 +54,3 @@ if (document.readyState === "loading") {
 }
 
 export default App;
-

@@ -19,10 +19,12 @@ export default function Navigation() {
             <Link to="/tasks" className="text-gray-600 hover:text-gray-900">
               Tasks
             </Link>
+            <Link to="/products" className="text-gray-600 hover:text-gray-900">
+              Products
+            </Link>
           </div>
         </div>
       </div>
     </nav>
   );
 }
-
