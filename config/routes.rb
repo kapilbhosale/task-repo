@@ -10,6 +10,13 @@ Rails.application.routes.draw do
   # get "manifest" => "rails/pwa#manifest", as: :pwa_manifest
   # get "service-worker" => "rails/pwa#service_worker", as: :pwa_service_worker
 
+  # API routes for products
+  namespace :api do
+    namespace :v1 do
+      resources :products
+    end
+  end
+
   # Defines the root path route ("/")
   root "pages#demo"
 end
